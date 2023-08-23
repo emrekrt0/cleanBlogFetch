@@ -66,7 +66,7 @@ function renderTitle() {
         currentTitle = posts.data[i];
         postPreview.innerHTML += `
         <div class="post-preview">
-                        <a href="todos.html?id="${currentTitle.attributes.id}" class="post-title" data-postid="${currentTitle.attributes.id}">
+                        <a href="post.html?id="${currentTitle.attributes.id}" class="post-title" data-postid="${currentTitle.attributes.id}">
                         <h2 class="post-title">${currentTitle.attributes.title}</h2>
                             <h5 class="post-subtitle">${currentTitle.attributes.summary}</h5>
                         </a>
